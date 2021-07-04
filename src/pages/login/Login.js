@@ -1,16 +1,26 @@
-import DefaultLayout from "../../componets/layout/DefaultLayout";
 import React from 'react'
-
+import { LoginForm } from "../../componets//login-form/LoginForm";
+import "./login.style.css"
+import Dashboard from "../dashboard/Dashboard";
 
 const Login = () => {
     return (
         <div>
+        <Dashboard />
+    
+        <div className="login-page ">
 
-            I am login
+
+          
+
+    <LoginForm />
+      
+
 
 
 
         </div>
+            </div>
     )
 }
 
