@@ -66,6 +66,9 @@ export const LoginForm = () => {
     Submit
   </Button>
 </Form>
+
+<a href="/reset-password" className="text-right"> Forgot Password ? </a>
+
 </Card>
             
         </div>
