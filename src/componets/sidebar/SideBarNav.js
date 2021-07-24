@@ -6,7 +6,7 @@ const SideBarNav = () => {
 
             <ul>
                 <li>Dashboard</li>
-                <li>Category</li>
+                <li><a href="/category">Category</a></li>
                 <li>Product</li>
                 <li>Order</li>
                 <li>Users</li>

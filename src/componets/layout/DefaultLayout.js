@@ -11,7 +11,7 @@ const Defaultlayout = ({ children }) => {
     
                 
                     <div className="left-bar" >
-                        <div className="admin-logo p-2 mb-5"> Admin panel</div>
+                        <div className="logo"> Admin panel (Logo) </div>
                     <SideBarNav/>    
                     </div>
                

@@ -3,6 +3,12 @@
   grid-template-columns: 250px auto;
 }
 
+.logo {
+  background-image: url(../layout/partials/img/logo.png) no-repeat;
+  background-size: cover;
+  height: 10%;
+  background-color: grey;
+}
 .navbar-text {
   margin-right: 1rem;
 }
