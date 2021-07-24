@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from "./partials/Footer";
 import Header from "./partials/Headers";
-import { Row, Container, Col } from "react-bootstrap";
+
+
 import "./defaultLayout.style.css";
 import SideBarNav from '../sidebar/SideBarNav';
 
@@ -18,7 +19,10 @@ const Defaultlayout = ({ children }) => {
                     <div className="main" >
                         <Header />
 
-                        {children}
+                     
+                         {children} 
+       
+                    
                         <Footer />
 
                     </div>
