@@ -1,26 +1,25 @@
 import React from 'react'
 import { LoginForm } from "../../componets//login-form/LoginForm";
 import "./login.style.css"
-import Dashboard from "../dashboard/Dashboard";
+
+import Defaultlayout from '../../componets/layout/DefaultLayout';
 
 const Login = () => {
     return (
-        <div>
-        <Dashboard />
-    
-        <div className="login-page ">
+        
+        <div className="login-page "> 
+
+       
+    <LoginForm/>
+
+        
 
 
-          
 
-    <LoginForm />
+
       
-
-
-
-
-        </div>
             </div>
+          
     )
 }
 

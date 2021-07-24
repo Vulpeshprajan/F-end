@@ -6,12 +6,11 @@ import "./defaultLayout.style.css";
 
 const Defaultlayout = ({ children }) => {
     return (
-        <div>
-            <Row>
-                <Col xs={4}>
+        <div className="default-layout">
+    
+                
                     <div className="left-bar" > I am from the left menu </div>
-                </Col>
-                <Col xs={8}>
+               
                     <div className="main" >
                         <Header />
 
@@ -19,10 +18,10 @@ const Defaultlayout = ({ children }) => {
                         <Footer />
 
                     </div>
-                </Col>
+              
 
 
-            </Row>
+           
 
         </div>
 

@@ -1,3 +1,9 @@
 .login-form {
   width: 500px;
 }
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

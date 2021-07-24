@@ -6,10 +6,9 @@ import {PasswordResetForm} from "../../componets/password-reset-form/PasswordRes
 
 const PasswordReset = () => {
     return (
-        <div>
         
     
-        <div className="password-reset-page "> 
+        <div className="password-reset-page" > 
 
         <PasswordResetForm/>
 
@@ -20,7 +19,6 @@ const PasswordReset = () => {
 
 
         </div>
-            </div>
     )
 }
 

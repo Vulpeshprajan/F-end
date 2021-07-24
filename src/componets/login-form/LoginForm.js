@@ -34,10 +34,11 @@ export const LoginForm = () => {
   
   
   return (
-        <div className = "login-form">
-            <Card className="p-4">
+        <div className = "login-form ">
+            <Card className="p-4 bg-light">
             <Form onSubmit = {handleOnSubmit}>
   <Form.Group className="mb-3" controlId="formBasicEmail">
+   <div className="sign-in mb-4 "> <i class="fas fa-lock mr-2"></i> <b>Sign In </b></div>
     <Form.Label>Email address</Form.Label>
     <Form.Control 
     name="email"
