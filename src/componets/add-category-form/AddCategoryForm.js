@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
-import { Button, Row } from 'react-bootstrap'
-import { Col} from 'react-bootstrap'
-import {Form } from 'react-bootstrap'
+import { Button, Row, Col, Form } from 'react-bootstrap'
 
 
 
@@ -32,7 +30,9 @@ const handleOnChange = e => {
 const handleOnSubmit = e => {
 e.preventDefault()
 
-console.log(category)
+// we are finding the way to call our server
+
+
 }
     return (
       
