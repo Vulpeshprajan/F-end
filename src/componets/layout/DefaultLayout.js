@@ -18,10 +18,9 @@ const Defaultlayout = ({ children }) => {
                
                     <div className="main" >
                         <Header />
-
-                     
+                        <div className="container-fluid">
                          {children} 
-       
+       </div>
                     
                         <Footer />
 

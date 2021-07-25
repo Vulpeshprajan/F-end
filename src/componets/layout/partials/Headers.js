@@ -8,9 +8,9 @@ const Headers = () => {
  
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
-      <Navbar.Text> <i class="far fa-bell text-primary"></i>Notification
+      <Navbar.Text> <i className="far fa-bell text-primary"></i>Notification
       </Navbar.Text>
-      <Navbar.Text> <i class="fas fa-sign-out-alt text-success"></i>Log out
+      <Navbar.Text> <i className="fas fa-sign-out-alt text-success"></i>Log out
       </Navbar.Text>
     </Navbar.Collapse>
   
